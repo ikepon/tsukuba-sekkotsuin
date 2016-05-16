@@ -1,0 +1,180 @@
+body {
+  letter-spacing: 1px;
+  font-family: Avenir, "Open Sans", "Helvetica Neue", Helvetica, Arial, Verdana, Roboto, "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Meiryo UI", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+
+}
+
+a, a:hover {
+  color: black;
+}
+
+#header {
+  border-top: 3px solid #447baf;
+  position: relative;
+}
+
+.header {
+  max-width: 960px;
+  height: 70px;
+  margin: 0 auto;
+}
+
+.header-logo {
+  float: left;
+}
+
+.site-title {
+  height: 70px;
+  margin: 0;
+  padding: 12px 0;
+}
+
+.logo {
+  width: 250px;
+}
+
+.header-nav {
+  float: right;
+}
+
+.nav-item {
+  float: left;
+  line-height: 29px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.nav-item+ .nav-item {
+  border-left: 1px solid #7ea7cd;
+}
+
+.nav-menu {
+  font-size: 1.6rem;
+  height: 30px;
+  padding: 0 12px;
+  vertical-align: middle;
+}
+
+.nav-menu:hover {
+  text-decoration: none;
+  color: #A9A9A9 !important;
+  transition: 0.15s;
+}
+
+
+/* main */
+#main {
+  padding: 15px 0;
+  background-image: url("../images/bg-blueline.gif")
+}
+
+#main .row {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#main .col-sm-6, #main .col-sm-12 {
+  padding: 15px;
+}
+
+#main .main-wrapper {
+  background-color: white;
+  margin-bottom: 15px;
+  border-radius: 4px;        /* CSS3草案 */
+  -webkit-border-radius: 4px;    /* Safari,Google Chrome用 */
+  -moz-border-radius: 4px;   /* Firefox用 */
+}
+
+#main .main-title {
+  font-size: 1.8rem;
+  margin-top: 0;
+  border-bottom: 1px dotted #7ea7cd;
+}
+
+#main .page-title {
+  font-size: 1.8rem;
+  margin-top: 0;
+  border-bottom: 1px dotted #7ea7cd;
+}
+
+#main .header-icon {
+  height: 28px;
+}
+
+#main .description {
+  margin: 0 8px;
+  line-height: 2.5rem;
+}
+
+#main .content-link {
+  margin-top: 10px;
+  color: #7ea7cd;
+  border-bottom: 1px dotted #7ea7cd;
+  text-decoration: none;
+}
+
+#main .content-link:hover {
+  color: #dae6f1;
+  transition: 0.15s;
+}
+
+#main .emphasis {
+  color: #ff7800;
+  font-weight: bold;
+}
+
+#main .intro-area .sub-title {
+  font-size: 1.7rem;
+  margin-left: 15px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.coming-soon {
+  margin: 15px auto;
+}
+
+.schedule {
+  float: right;
+}
+
+.schedule-img {
+  width: 250px;
+  margin: 2px 0 0 10px;
+}
+
+.sidebar-title {
+  font-size: 1.8rem;
+  margin-top: 0;
+}
+
+.sidebar-schedule {
+  width: 100%;
+}
+
+.about-schedule {
+}
+
+.map-area {
+  padding-top: 0 !important;
+}
+
+.to-google-map {
+  color: #0000ff;
+}
+
+/* footer */
+#footer {
+  border-top: 1px solid #ebf6f6;
+}
+
+.copyright {
+  margin-bottom: 0;
+  padding: 10px;
+  width: 100%;
+  color: #98a9a9;
+  font-family: Arial, Helvetica;
+  font-size: 76%;
+  text-align: center;
+  clear: both;
+}
