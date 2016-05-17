@@ -145,8 +145,13 @@ a, a:hover {
 }
 
 .sidebar-title {
+  color: #447baf;
   font-size: 1.8rem;
   margin-top: 0;
+}
+
+.sidebar-tel {
+  font-size: 1.7rem;
 }
 
 .sidebar-schedule {
