@@ -135,6 +135,26 @@ a, a:hover {
   margin: 15px auto;
 }
 
+.home-content-title {
+  font-size: 1.6rem;
+  margin-top: 1.7rem;
+  line-height: 1.6;
+}
+
+.home-content-title span {
+  border-bottom: 1px dotted #7ea7cd;
+}
+
+.home-content-description {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  margin-left: 1.2rem;
+}
+
+.home-tel {
+  margin-top: 1.2rem;
+}
+
 .schedule {
   float: right;
 }
