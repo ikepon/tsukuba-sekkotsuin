@@ -184,3 +184,22 @@ a, a:hover {
   text-align: center;
   clear: both;
 }
+
+
+/* リハビリ・トレーニングマシン */
+.item-title {
+  font-size: 1.7rem;
+  margin-top: 8px;
+  line-height: 1.7;
+  border-bottom: 1px dotted #7ea7cd;
+}
+
+.content-title {
+  font-size: 1.6rem;
+  margin-top: 8px;
+  line-height: 1.6;
+}
+
+.content-list {
+  margin-left: 20px;
+}
