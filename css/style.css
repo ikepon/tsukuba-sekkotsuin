@@ -155,6 +155,19 @@ a, a:hover {
   margin-top: 1.2rem;
 }
 
+.price-list {
+  margin-top: 1.5rem;
+}
+
+.notification-description {
+  margin-top: 1.5rem;
+}
+
+.notification {
+  font-weight: bold;
+  margin-right: 1.2rem;
+}
+
 .schedule {
   float: right;
 }
