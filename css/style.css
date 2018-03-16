@@ -177,7 +177,7 @@ a, a:hover {
 }
 
 .notification-description {
-  margin: 1.5rem 1.5rem 0 4.5rem;
+  margin: 0 1.5rem 0 4.5rem;
   line-height: 1.5;
 }
 
