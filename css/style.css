@@ -97,6 +97,23 @@ a, a:hover {
   border-bottom: 1px dotted #7ea7cd;
 }
 
+#main .quotation {
+  display: block;
+  padding: 1.4rem;
+  line-height: 1.7;
+  color: #333;
+  word-break: break-all;
+  word-wrap: normal;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#main .page-description {
+  margin: 1.2rem 1rem;
+  line-height: 1.7;
+}
+
 #main .header-icon {
   height: 28px;
 }
@@ -133,6 +150,42 @@ a, a:hover {
 
 .coming-soon {
   margin: 15px auto;
+}
+
+.home-content-title {
+  font-size: 1.6rem;
+  margin-top: 1.7rem;
+  line-height: 1.6;
+}
+
+.home-content-title span {
+  border-bottom: 1px dotted #7ea7cd;
+}
+
+.home-content-description {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  margin-left: 1.2rem;
+}
+
+.home-tel {
+  margin-top: 1.2rem;
+}
+
+.price-list {
+  margin-top: 1.5rem;
+}
+
+.notification-description {
+  margin: 0 1.5rem 0 4.5rem;
+  line-height: 1.5;
+}
+
+.notification {
+  position: absolute;
+  left: 25px;
+  font-weight: bold;
+  margin-right: 1.2rem;
 }
 
 .schedule {
@@ -183,4 +236,23 @@ a, a:hover {
   font-size: 76%;
   text-align: center;
   clear: both;
+}
+
+
+/* リハビリ・トレーニングマシン */
+.item-title {
+  font-size: 1.7rem;
+  margin-top: 8px;
+  line-height: 1.7;
+  border-bottom: 1px dotted #7ea7cd;
+}
+
+.content-title {
+  font-size: 1.6rem;
+  margin-top: 8px;
+  line-height: 1.6;
+}
+
+.content-list {
+  margin-left: 20px;
 }
